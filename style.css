@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top navigation */
+.top-nav {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+}
+
+/* Left side */
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* Right side */
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Links */
+.top-nav a {
+    color: #202124;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Icons */
+.right-nav img {
+    object-fit: contain;
+}
+
+.right-nav img:first-of-type {
+    width: 30px;
+    height: 30px;
+}
+
+.right-nav img:last-of-type {
+    width: 35px;
+    height: 35px;
+}
+
+/*hero-section - google logo*/
+.hero-section{
+    /* height: 90px;
+    width: auto; */
+    /* padding: 40px 25%  20px  ; */
+    max-width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section img {
+    width: 290px;
+    height: auto;
+}
+
+.search-bar {
+    width: 700px;
+    height: 50px;
+
+    margin: 0 auto 0;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-bar input{
+    width: 75%;
+    border: none;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.buttons button {
+    height: 40px;
+    width: auto;
+    font-size: 25px;
+    border: 1px solid #dfe1e5;
+    border-radius: 5px;
+
+    background-color: #f8f9fa;
+
+    color: #202124;
+    font-size: 14px;
+
+    padding: 0 16px;
+
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    justify-content: center;    
+    margin-top: 35px;
+    gap: 6px;
+}
+.text a{
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+footer{
+    position: relative;
+    height: 180px;
+    top: 160px;
+    bottom: 0;
+}
+
+.india{
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.about {
+    height: 45px;
+    background-color: #f2f2f2;
+    color: #1f1f1f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d3d3d3;
+    gap: 190px;
+}
+
+.about a{
+    color: #1f1f1f;
+    text-decoration: none;
+}
+
+.foot-left{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 25px;
+}
+
+.foot-right{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    gap: 25px;
+
+    margin-left: auto;
+}
